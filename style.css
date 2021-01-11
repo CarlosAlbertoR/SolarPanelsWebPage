@@ -1,3 +1,27 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.info {
+    background: #7aa300;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.info h1,
+.info p {
+    color: #ffffff;
+    margin: 0px;
+    text-align: center;
+}
+
 img.photo {
     display: inline-block;
     width: 200px;
@@ -5,6 +29,14 @@ img.photo {
 
 ul {
     list-style: none;
+    position: absolute;
+    right: 200px;
+    top: 60px;
+}
+
+ul li {
+    display: inline;
+    margin: 0px 20px;
 }
 
 ul li a {
