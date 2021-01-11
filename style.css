@@ -73,6 +73,27 @@ img.photo {
     padding-left: 40px;
 }
 
+.cell {
+    display: table-cell;
+}
+
+.characteristics h5 {
+    font-size: 15px;
+    padding: 1em;
+}
+
+.characteristics p {
+    line-height: 26px;
+    padding: 1em;
+    text-align: justify;
+}
+
+.characteristics img {
+    height: 54px;
+    vertical-align: middle;
+    width: 64px;
+}
+
 form input,
 form textarea {
     border-radius: 5px;
