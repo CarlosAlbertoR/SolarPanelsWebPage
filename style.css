@@ -1,12 +1,11 @@
-html,
-body {
-    padding: 0px;
+* {
     margin: 0px;
+    padding: 0px;
 }
 
 .container {
-    width: 1000px;
     margin: 0px auto;
+    width: 1000px;
 }
 
 .info {
@@ -27,6 +26,75 @@ img.photo {
     width: 200px;
 }
 
+.three {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+}
+
+.central-image img {
+    width: 300px;
+}
+
+.check {
+    background: url(./img/check.png) no-repeat;
+}
+
+.check p {
+    line-height: 30px;
+    padding-left: 30px;
+}
+
+.specialists {
+    background: #dcdcdc;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.specialists .container h2 {
+    color: #447c11;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.form {
+    background: #202020;
+    margin-left: 4em;
+    padding: 15px;
+    width: 25%;
+}
+
+.form h3 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+form input,
+form textarea {
+    border-radius: 5px;
+    display: block;
+    height: 25px;
+    margin: 5px auto;
+    width: 70%;
+}
+
+form textarea {
+    height: 40px;
+}
+
+input[type="submit"] {
+    background: #fb7104;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 60%;
+}
+
 ul {
     list-style: none;
     position: absolute;
@@ -40,6 +108,6 @@ ul li {
 }
 
 ul li a {
-    text-decoration: none;
     color: #83b633;
+    text-decoration: none;
 }
