@@ -94,6 +94,24 @@ img.photo {
     width: 64px;
 }
 
+.kits {
+    background: #7aa300;
+    padding-bottom: 1em;
+}
+
+.kits h2 {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 1em;
+    text-align: center;
+}
+
+.one-four {
+    display: inline-block;
+    width: 24%;
+}
+
 form input,
 form textarea {
     border-radius: 5px;
