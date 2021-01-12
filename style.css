@@ -112,6 +112,24 @@ img.photo {
     width: 24%;
 }
 
+.testimonials .container {
+    margin-bottom: 2em;
+}
+
+.testimonials .container h4 {
+    color: #447c11;
+    font-size: 32px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.testimonials .container .cell {
+    background-image: url(./img/quotation-marks.svg);
+    background-repeat: no-repeat;
+    padding-left: 85px;
+}
+
 form input,
 form textarea {
     border-radius: 5px;
