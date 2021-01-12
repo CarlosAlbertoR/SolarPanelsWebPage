@@ -103,7 +103,7 @@ img.photo {
     color: #ffffff;
     font-size: 32px;
     font-weight: 700;
-    padding: 1em;
+    padding: 1em 0;
     text-align: center;
 }
 
@@ -128,6 +128,15 @@ img.photo {
     background-image: url(./img/quotation-marks.svg);
     background-repeat: no-repeat;
     padding-left: 85px;
+}
+
+.map {
+    margin-bottom: 2rem;
+}
+
+.map .column {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 form input,
@@ -167,4 +176,12 @@ ul li {
 ul li a {
     color: #83b633;
     text-decoration: none;
+}
+
+footer {
+    background: #7aa300;
+}
+
+footer p {
+    padding: 15px 0;
 }
